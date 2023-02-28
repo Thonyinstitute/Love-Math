@@ -17,12 +17,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 rungame(gametype);
             }
         })
+
     }
+    
+    document.getElementById("answer-box").addEventListener("keydown", function(event){
+        if (event.key === "Enter") {
+            checkAnswer();
+        }
+    })
 
-
-    rungame("addition");
-  
-
+     rungame("addition")
 })
 
 
