@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     rungame("addition");
-    rungame("subtract");
-    rungame("multiply");
-    rungame("division");
+  
 
 })
 
